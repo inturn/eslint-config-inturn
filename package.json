@@ -1,10 +1,9 @@
 {
   "name": "eslint-config-inturn",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "an eslint config used by the development team at inturn",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "Inturn",
   "license": "MIT",
   "peerDependencies": {
