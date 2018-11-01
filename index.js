@@ -69,7 +69,7 @@ module.exports = {
     "prefer-promise-reject-errors": "error",
     "prettier/prettier": "error",
     "quotes": ["error", "single", "avoid-escape"],
-    "react/default-props-match-prop-types": "error",
+    "react/default-props-match-prop-types": ["error",{"allowRequiredDefaults": true}],
     "react/forbid-prop-types": "error",
     "react/jsx-boolean-value": ["error", "always"],
     "react/jsx-closing-bracket-location": "error",
