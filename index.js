@@ -17,7 +17,8 @@ module.exports = {
     "ecmaVersion": 7,
     "sourceType": "module",
     "ecmaFeatures": {
-      "jsx": true
+      "jsx": true,
+      "legacyDecorators": true
     }
   },
   settings: {
@@ -54,7 +55,6 @@ module.exports = {
     "no-console": ["error", { "allow": ["warn", "error", "info"] }],
     "no-else-return": "error",
     "no-extra-boolean-cast": "error",
-    "no-nested-ternary": "error",
     "no-plusplus": "off",
     "no-prototype-builtins": "error",
     "no-restricted-syntax": "error",
@@ -73,16 +73,13 @@ module.exports = {
     "react/forbid-prop-types": "error",
     "react/jsx-boolean-value": ["error", "always"],
     "react/jsx-closing-bracket-location": "error",
-    "react/jsx-closing-tag-location": "error",
     "react/jsx-curly-spacing": ["error", {
       "when": "never",
       "children": true
     }],
-    "react/jsx-indent": "error",
     "react/jsx-filename-extension": "off",
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
-    "react/jsx-wrap-multilines": "error",
     "jsx-a11y/no-noninteractive-element-interactions": "error",
     "react/no-array-index-key": "warn",
     "react/no-find-dom-node": "error",
