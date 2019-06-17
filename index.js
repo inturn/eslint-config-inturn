@@ -78,6 +78,7 @@ module.exports = {
       "children": true
     }],
     "react/jsx-filename-extension": "off",
+    "react/jsx-indent": "off",
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
     "jsx-a11y/no-noninteractive-element-interactions": "error",
